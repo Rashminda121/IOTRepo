@@ -1,0 +1,23 @@
+
+#define inputPin 23               // CHANGE PIN NUMBER HERE IF YOU WANT TO USE A DIFFERENT PIN
+#define outputPin 22               // CHANGE PIN NUMBER HERE IF YOU WANT TO USE A DIFFERENT PIN
+long duration, distance;
+
+
+void setup(){
+  Serial.begin (9600);
+
+  pinMode(inputPin, INPUT);
+  pinMode(outputPin, OUTPUT);
+ 
+
+}
+
+void loop(){
+
+  bool motion=digitalRead(inputPin); 
+  Serial.print(motion);
+  delay(2000);
+
+  
+}
