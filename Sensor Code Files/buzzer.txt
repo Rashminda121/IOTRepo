@@ -1,0 +1,28 @@
+
+
+const int buzzerPin=23;
+
+
+void setup() {
+  pinMode(buzzerPin,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+    delay(1000);
+
+    tone(buzzerPin,1000);
+    delay(1000);
+
+    tone(buzzerPin,277);
+    delay(500);
+
+     tone(buzzerPin,294);
+    delay(500);
+
+    tone(buzzerPin,440);
+    delay(500);
+
+}
