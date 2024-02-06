@@ -37,6 +37,7 @@ void setup() {
 
 //pir sensor
   pinMode(pirPin, INPUT);
+
   //led light
   pinMode(ledPin, OUTPUT);
   pinMode(led2Pin,OUTPUT);
