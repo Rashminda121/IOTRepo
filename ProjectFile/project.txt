@@ -75,7 +75,25 @@ void loop() {
     delay(1000);
   }
 
+ //sound sensor
 
+  // int val_digital = digitalRead(sound_digital);
+  // int val_analog = analogRead(sound_analog);
+
+  // Serial.print("Analog Signal: "+String(val_analog));
+  // Serial.print("\t");
+  // Serial.println("Digital Signal "+String(val_digital));
+
+  // if (val_digital == LOW)
+  // {
+  //   digitalWrite (led, LOW);
+  //   delay(1000);
+  //   }
+  // else
+  // {
+  //   digitalWrite (led, HIGH);
+  //   delay(1000);
+  // }
 
 
 
