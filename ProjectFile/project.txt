@@ -21,3 +21,6 @@ long duration, distance;
 // int led = 13;
 // int sound_digital = 12;
 // int sound_analog = 35;
+
+//buzzer
+// const int buzzerPin=2;
