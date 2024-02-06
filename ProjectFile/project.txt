@@ -24,3 +24,12 @@ long duration, distance;
 
 //buzzer
 // const int buzzerPin=2;
+
+//light sensor
+int lightPin=13;
+
+
+
+
+
+
