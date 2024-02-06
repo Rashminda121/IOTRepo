@@ -49,8 +49,8 @@ void setup() {
   //buzzer
   // pinMode(buzzerPin,OUTPUT);
 
-
-
+  //light sensor
+  pinMode(lightPin,INPUT);
 
 
 
