@@ -13,3 +13,6 @@
 #define pirPin 21               // CHANGE PIN NUMBER HERE IF YOU WANT TO USE A DIFFERENT PIN
 #define ledPin 4 
 #define led2Pin 2 
+
+//pir sensor
+long duration, distance;
