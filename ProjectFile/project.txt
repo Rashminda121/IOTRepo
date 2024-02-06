@@ -95,7 +95,21 @@ void loop() {
   //   delay(1000);
   // }
 
+//light sensor
+  bool light=digitalRead(lightPin);
+  if (light)
+  {
+    Serial.println("Light is Deactivated.");
+    }
+  else
+  {
+    Serial.println("Light is Activated.");
+  }
 
+  digitalWrite(led2Pin, !light);
+
+
+  delay(3000);
 
 
 
