@@ -63,7 +63,17 @@ void setup() {
 
 void loop() {
 
-
+//pir sensor
+  bool motion=digitalRead(pirPin);
+  if(motion){
+    Serial.println("\nMotion Detected: " + String(motion));
+    digitalWrite(ledPin,HIGH);
+    delay(1000);
+  }else{
+    Serial.println("\nMotion Not Detected: "+ String(motion));
+    digitalWrite(ledPin,LOW);
+    delay(1000);
+  }
 
 
 
