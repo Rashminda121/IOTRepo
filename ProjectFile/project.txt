@@ -3,3 +3,6 @@
 #include <deprecated.h>
 #include <require_cpp11.h>
 #include "driver/ledc.h"
+
+#include <SPI.h>
+#include <MFRC522.h>
