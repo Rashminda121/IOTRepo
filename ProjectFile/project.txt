@@ -42,7 +42,9 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(led2Pin,OUTPUT);
 
-
+//sound sensor
+  // pinMode(led, OUTPUT);
+  // pinMode(sound_digital, INPUT);
 
 
 
