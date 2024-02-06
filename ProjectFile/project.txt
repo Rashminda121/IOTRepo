@@ -46,7 +46,8 @@ void setup() {
   // pinMode(led, OUTPUT);
   // pinMode(sound_digital, INPUT);
 
-
+  //buzzer
+  // pinMode(buzzerPin,OUTPUT);
 
 
 
