@@ -16,3 +16,8 @@
 
 //pir sensor
 long duration, distance;
+
+//sound
+// int led = 13;
+// int sound_digital = 12;
+// int sound_analog = 35;
