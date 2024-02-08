@@ -147,6 +147,10 @@ if(cardID.substring(1) == "E3 50 E3 19"  )
       
   }
 
-
+else {
+      Serial.println("Access Denied");
+      digitalWrite(ledPin,LOW);
+      
+  }
 
 
