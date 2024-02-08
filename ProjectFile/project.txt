@@ -152,5 +152,7 @@ else {
       digitalWrite(ledPin,LOW);
       
   }
+ delay(3000);
 
+}
 
