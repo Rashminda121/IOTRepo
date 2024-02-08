@@ -136,8 +136,8 @@ Serial.print("Card ID: ");
 
   }
 
-
-
+Serial.println();
+cardID.toUpperCase();
 
 
 
